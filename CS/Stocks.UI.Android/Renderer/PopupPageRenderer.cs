@@ -32,7 +32,7 @@ namespace Stocks.UI.Views.Android {
             var decoreHeight = decoreView.Height;
             var decoreWidht = decoreView.Width;
 
-            var visibleRect = new Rect();
+            var visibleRect = new AGraphics.Rect();
             decoreView.GetWindowVisibleDisplayFrame(visibleRect);
 
             if (Build.VERSION.SdkInt >= BuildVersionCodes.M) {

@@ -5,7 +5,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>DevExpress Stocks</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.devexpress.stocks</string>
+	<string>com.i7chi.devexpress.stocks</string>
 	<key>CFBundleName</key>
 	<string>DevExpress Stocks</string>
 	<key>CFBundleShortVersionString</key>

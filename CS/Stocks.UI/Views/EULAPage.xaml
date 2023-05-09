@@ -95,15 +95,15 @@
 	            </Label.FormattedText>
             </Label>
             <views:TextButton 
+                Clicked="OnDeclineClicked"
+                Text="Decline"
+                Style="{StaticResource DeclineButtonStyle}">
+            </views:TextButton>
+            <views:TextButton 
                 Style="{StaticResource AcceptButtonStyle}"
                 Text="Accept"
                 Command="{Binding AcceptCommand}"
                 Clicked="OnAcceptClicked">
-            </views:TextButton>
-            <views:TextButton 
-                Clicked="OnDeclineClicked"
-                Text="Decline"
-                Style="{StaticResource DeclineButtonStyle}">
             </views:TextButton>
         </Grid>
     </ScrollView>
